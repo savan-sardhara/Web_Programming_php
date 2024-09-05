@@ -160,7 +160,7 @@
                         <table border="0" width="100%">
                             <tr align="center">
                                 <td height="50px">
-                                    <font color="red" size="10px">  <?php echo date('h'); ?></font>
+                                    <font color="red" size="10px">  <?php  date_default_timezone_set("Asia/Kolkata"); echo date('h'); ?></font>
                                 </td>
                                 <td>
                                     <font color="red" size="10px"><?php echo date('i'); ?></font>
