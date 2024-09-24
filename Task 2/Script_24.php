@@ -14,7 +14,7 @@
 <?php 
     if (isset($_REQUEST['sub'])) {
         $nm=$_REQUEST['num'];
-        $sqr=$nm*$nm;
+        $sqr=sqrt($nm);
         echo "Square root : $sqr";
     }
 
